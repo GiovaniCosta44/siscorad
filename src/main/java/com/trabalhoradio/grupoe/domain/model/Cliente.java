@@ -26,7 +26,7 @@ public class Cliente {
     @EqualsAndHashCode.Include
     @NotBlank
     @Size(max = 14)
-    @Column(name = "CPF")
+    @Column(name = "taxid")
     private String taxId;
 
 
