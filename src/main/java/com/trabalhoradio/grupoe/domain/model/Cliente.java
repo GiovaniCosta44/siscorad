@@ -16,19 +16,19 @@ import javax.validation.constraints.Size;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Cliente {
 
-    @EqualsAndHashCode.Include
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     @NotBlank
     @Size(max = 60)
     @Column(name = "Nome")
     private String nome;
 
+    @Id
+    @EqualsAndHashCode.Include
     @NotBlank
     @Size(max = 14)
-    private String CPF;
+    @Column(name = "CPF")
+    private String taxId;
+
 
     @NotBlank
     @Size(max = 1)

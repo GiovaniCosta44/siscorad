@@ -7,8 +7,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+public interface ClienteRepository extends JpaRepository<Cliente, String> {
 
     List<Cliente> findByNome(String nome);
     List<Cliente> findByNomeContaining(String nome);
+    List<Cliente> findBytaxId(String taxId);
 }
