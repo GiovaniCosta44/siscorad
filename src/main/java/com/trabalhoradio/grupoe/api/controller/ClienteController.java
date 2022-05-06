@@ -34,6 +34,8 @@ public class ClienteController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Cliente adicionar(@Valid @RequestBody Cliente cliente) {
+        cliente.setTaxId(cliente.getTaxId().replaceAll("\\.",""));
+        cliente.setTaxId(cliente.getTaxId().replaceAll("-",""));
         return clienteRepository.save(cliente);
     }
 
