@@ -1,1 +1,0 @@
-alter table Cliente drop column id;

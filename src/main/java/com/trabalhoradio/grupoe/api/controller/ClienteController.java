@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.trabalhoradio.grupoe.domain.model.Cliente;
 import com.trabalhoradio.grupoe.domain.repository.ClienteRepository;
+import com.trabalhoradio.grupoe.domain.service.CrudClienteService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +18,7 @@ import javax.validation.Valid;
 public class ClienteController {
 
     private ClienteRepository clienteRepository;
+    private CrudClienteService crudClienteService;
 
     @GetMapping
     public List<Cliente> listar() {
@@ -36,7 +38,7 @@ public class ClienteController {
     public Cliente adicionar(@Valid @RequestBody Cliente cliente) {
         cliente.setTaxId(cliente.getTaxId().replaceAll("\\.",""));
         cliente.setTaxId(cliente.getTaxId().replaceAll("-",""));
-        return clienteRepository.save(cliente);
+        return crudClienteService.salvar(cliente);
     }
 
     @PutMapping("/{clientetaxId}")
@@ -45,7 +47,7 @@ public class ClienteController {
             return ResponseEntity.notFound().build();
         }
         cliente.setTaxId(clientetaxId);
-        cliente = clienteRepository.save(cliente);
+        cliente = crudClienteService.salvar(cliente);
 
         return ResponseEntity.ok(cliente);
     }
@@ -55,8 +57,7 @@ public class ClienteController {
         if (!clienteRepository.existsById(clientetaxId)) {
             return ResponseEntity.notFound().build();
         }
-        clienteRepository.deleteById(clientetaxId);
-
+        crudClienteService.excluir(clientetaxId);
         return ResponseEntity.noContent().build();
     }
 

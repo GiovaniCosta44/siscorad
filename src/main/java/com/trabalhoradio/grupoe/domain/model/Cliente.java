@@ -26,12 +26,11 @@ public class Cliente {
     @EqualsAndHashCode.Include
     @NotBlank
     @Size(max = 14)
-    @Column(name = "taxid")
+    @Column(name = "taxid ")
     private String taxId;
 
-
-    @NotBlank
     @Size(max = 1)
+    @NotBlank
     @Column(name = "Sexo")
     private String sexo;
 
