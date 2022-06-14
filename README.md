@@ -6,9 +6,11 @@
 
 <p align="center">
  <a href="#descrição">Descrição</a> •
- <a href="#tecnologias">Tecnologias</a> •
+ <a href="#dependências">Dependências</a> •
  <a href="#pré-requisitos">Pré Requisitos</a> •
- <a href="#autor">Autor</a>
+ <a href="#execução">Execução</a> •
+ <a href="#autores">Autores</a> •
+ <a href="#histórico-de-versão">Histórico-de-versão</a>
 </p>
 
 ---
@@ -22,7 +24,7 @@ cadastro e venda dos Spots, podendo gerenciar o valor, tempo e tipo de propagand
 desejada pelo cliente. 
   
 
-## Tecnologias 
+## Dependências  
 
 + [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
 + [MySQL](https://www.mysql.com/)
@@ -36,6 +38,22 @@ Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferra
 [Git](https://github.com/), [IntelliJ](https://www.jetbrains.com/pt-br/idea/) e [Angular](https://angular.io/).
 
 
-## Autor
+## Execução
 
 +
+
+
+## Ajuda
+
++
+
+
+## Autores
+
++ Ana Paula da Siva 
++ Giovani Costa [GitHub](https://github.com/GiovaniCosta44)
++ Matheus Passareli 
++ 
+
+
+## Histórico de versão
