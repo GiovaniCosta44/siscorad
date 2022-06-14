@@ -31,6 +31,7 @@ desejada pelo cliente.
 + [nodeJs](https://nodejs.org/en/)
 + [Spring Boot](https://spring.io/projects/spring-boot)
 + [Postman](https://www.postman.com/)
++ [VSCode](https://code.visualstudio.com/download)
 
 ## Pré-Requisitos 
 
@@ -40,7 +41,8 @@ Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferra
 [nodeJs](https://nodejs.org/en/), 
 [mysql](https://www.mysql.com/),
 [JDK 1.8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html),
-[maven](https://maven.apache.org/download.cgi)
+[maven](https://maven.apache.org/download.cgi),
+[VSCode](https://code.visualstudio.com/download)
 
 
 ## Execução
