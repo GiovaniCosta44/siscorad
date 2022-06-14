@@ -61,7 +61,7 @@ Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferra
 ## Autores
 
 + Ana Paula da Siva 
-+ Giovani Costa [GitHub](https://github.com/GiovaniCosta44)
++ [Giovani Costa](https://github.com/GiovaniCosta44)
 + Matheus Passareli 
 + 
 
