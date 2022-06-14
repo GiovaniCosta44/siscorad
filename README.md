@@ -35,10 +35,12 @@ desejada pelo cliente.
 ## Pré-Requisitos 
 
 Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://github.com/),
-[IntelliJ](https://www.jetbrains.com/pt-br/idea/), [nodeJs](https://nodejs.org/en/), 
-[mySQL] (https://www.mysql.com/),
-[JDK 1.8] (https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
+[Git](https://git-scm.com/),
+[IntelliJ](https://www.jetbrains.com/pt-br/idea/),
+[nodeJs](https://nodejs.org/en/), 
+[mysql](https://www.mysql.com/),
+[JDK 1.8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html),
+[mavne](https://maven.apache.org/download.cgi)
 
 
 ## Execução
