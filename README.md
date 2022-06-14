@@ -28,14 +28,17 @@ desejada pelo cliente.
 
 + [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
 + [MySQL](https://www.mysql.com/)
-+ [Angular](https://angular.io/)
++ [nodeJs](https://nodejs.org/en/)
 + [Spring Boot](https://spring.io/projects/spring-boot)
 + [Postman](https://www.postman.com/)
 
 ## Pré-Requisitos 
 
 Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://github.com/), [IntelliJ](https://www.jetbrains.com/pt-br/idea/) e [Angular](https://angular.io/).
+[Git](https://github.com/),
+[IntelliJ](https://www.jetbrains.com/pt-br/idea/), [nodeJs](https://nodejs.org/en/), 
+[mySQL] (https://www.mysql.com/),
+[JDK 1.8] (https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
 
 
 ## Execução
