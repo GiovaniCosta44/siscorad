@@ -40,7 +40,10 @@ Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferra
 
 ## Execução
 
-+
++ Para executar o projeto em finalidade de teste local, faça o clone do repositório e depois o build da aplicação na IDE(Intellij) para fazer o download das dependências do Spring, Em seguida navegue até “application.properties” que fica em “siscorad/src/main/resources/” e insira o usuário e a senha do seu banco de dados (MySQL). 
+	Faça o mesmo no seu VSCode realizando o clone do repositório disponível aqui mesmo nesse github chamado “siscoradAngular” , buildando a aplicação e executando com o comando “npm run start”.
+	Pronto agora será possível acessar a página do Siscorad pelo http://localhost:4200 ou se preferir consumir a API pelo postman com o http://localhost:8080.
+
 
 
 ## Ajuda
