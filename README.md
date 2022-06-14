@@ -40,7 +40,7 @@ Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferra
 [nodeJs](https://nodejs.org/en/), 
 [mysql](https://www.mysql.com/),
 [JDK 1.8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html),
-[mavne](https://maven.apache.org/download.cgi)
+[maven](https://maven.apache.org/download.cgi)
 
 
 ## Execução
