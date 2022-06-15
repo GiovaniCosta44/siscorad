@@ -53,17 +53,14 @@ Antes de começar, vc terá que ter instalado em sua máquina as seguintes ferra
 
 
 
-## Ajuda
-
-+
-
-
 ## Autores
 
-+ Ana Paula da Siva 
++ [Ana Paula da Siva](https://github.com/anaps28)
 + [Giovani Costa](https://github.com/GiovaniCosta44)
-+ Matheus Passareli 
-+ 
++ [Matheus Passareli](https://github.com/MatheusPassareli) 
++ Jose Matias Lemes Filho 
 
 
 ## Histórico de versão
+
++ 1.0
